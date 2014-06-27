@@ -1,9 +1,6 @@
 #!/bin/bash
 set -e
 
-# Get my private directory
-./setup-private
-
 # Clone all submodules
 git submodule update -f --init --recursive
 
