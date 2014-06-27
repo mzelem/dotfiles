@@ -20,7 +20,7 @@ for folder in Documents src Pictures Music Movies
 done
 
 # Update git-remote
-git remote set-url origin git@github.com:mzelem/environment.git
+git remote set-url origin git@github.com:mzelem/dotfiles.git
 
 # Bundle the brews
 brew bundle
